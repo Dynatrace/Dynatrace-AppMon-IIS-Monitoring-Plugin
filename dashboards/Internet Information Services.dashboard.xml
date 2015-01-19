@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ATTENTION - THIS IS AN AUTOMATICALLY GENERATED FILE -->
+<!-- Manual changes can cause severe problems and system instability -->
+<!-- Apply manual changes only if you have received explicit instructions from dynaTrace Support -->
+<dynatrace version="3.2.0.1974" date="3/8/10 1:43 PM">
+  <dashboardconfig memento.version="3.2.0.1974" id="c6f25a43-f4e1-4d62-b606-e26d6c27471b" revision="00000127-3f17-213c-b03e-a111a2a91e0c" icon="com.dynatrace.diagnostics.sdk/default.gif" sessiontype="live" description="" locationassource="true" name="Internet Information Services" opendrilldowninnewdashboard="false" sessionid="Monitoring" bgcolor="255,255,255,255" mode="EDIT">
+    <reportconfig lines.per.table="100" orientation="portrait" print.legends="true" enabled="true" title="" description="" levels.per.tree="10" override="false" print.images="true" type="PDF" />
+    <filter>
+      <criterion type="timeframe">
+        <timeframe start="0" type="Auto" end="9223372036854775807" />
+      </criterion>
+    </filter>
+    <autorefreshconfig unit="SECONDS" enabled="true" time="10" />
+    <dashboardlayout>
+      <portletfolder relationtype="LEFT" portletdecorationvisible="false" ratio="0.95" folderid="leftFolder" selectionindex="0" relatedfolderid="DashboardLayout.blankArea" portletconfigorder="47242aea-26e7-4d7d-b945-6a457c51151d" />
+      <portletfolder relationtype="BOTTOM" portletdecorationvisible="false" ratio="0.6215316" folderid="org.eclipse.ui.internal.ViewStack@1e0c0b6" selectionindex="0" relatedfolderid="leftFolder" portletconfigorder="1b8ce2d0-83c5-46ed-a970-ed847a50034f" />
+      <portletfolder relationtype="RIGHT" portletdecorationvisible="false" ratio="0.499031" folderid="org.eclipse.ui.internal.ViewStack@dcfdc8" selectionindex="0" relatedfolderid="org.eclipse.ui.internal.ViewStack@1e0c0b6" portletconfigorder="f7187422-b1e1-4c03-830c-bbd3e8d9b50c" />
+      <portletfolder relationtype="BOTTOM" portletdecorationvisible="false" ratio="0.49853373" folderid="org.eclipse.ui.internal.ViewStack@a95748" selectionindex="0" relatedfolderid="org.eclipse.ui.internal.ViewStack@dcfdc8" portletconfigorder="1b6bead1-74b9-4d84-9206-9dfa60ab18c2" />
+      <portletfolder relationtype="BOTTOM" portletdecorationvisible="false" ratio="0.49707603" folderid="org.eclipse.ui.internal.ViewStack@579790" selectionindex="0" relatedfolderid="org.eclipse.ui.internal.ViewStack@a95748" portletconfigorder="04e69de0-9917-441c-a5bc-57fe7903aea5" />
+      <portletfolder relationtype="BOTTOM" portletdecorationvisible="false" ratio="0.49853373" folderid="org.eclipse.ui.internal.ViewStack@1c4be6a" selectionindex="0" relatedfolderid="org.eclipse.ui.internal.ViewStack@1e0c0b6" portletconfigorder="b1eece02-0b60-442d-b280-35ded0cca4fa" />
+      <portletfolder relationtype="BOTTOM" portletdecorationvisible="false" ratio="0.5" folderid="org.eclipse.ui.internal.ViewStack@d8b6fe" selectionindex="0" relatedfolderid="leftFolder" portletconfigorder="a877bac7-8f10-4a63-8643-71ccb3bc2e7e" />
+      <portletfolder relationtype="BOTTOM" portletdecorationvisible="false" ratio="0.49642858" folderid="org.eclipse.ui.internal.ViewStack@160e278" selectionindex="0" relatedfolderid="org.eclipse.ui.internal.ViewStack@d8b6fe" portletconfigorder="1d12be32-0974-4c8d-9c41-3e75ad6a3084" />
+      <portletfolder relationtype="RIGHT" portletdecorationvisible="false" ratio="0.49815497" folderid="org.eclipse.ui.internal.ViewStack@883936" selectionindex="0" relatedfolderid="org.eclipse.ui.internal.ViewStack@160e278" portletconfigorder="ff007f08-daa8-4d0c-a804-5ceb14befa40" />
+      <portletfolder relationtype="BOTTOM" portletdecorationvisible="false" ratio="0.4964539" folderid="org.eclipse.ui.internal.ViewStack@954bf1" selectionindex="0" relatedfolderid="org.eclipse.ui.internal.ViewStack@883936" portletconfigorder="4d967764-0b5d-4ba1-b0f1-9525774c2e35" />
+      <portletfolder relationtype="BOTTOM" portletdecorationvisible="false" ratio="0.4964539" folderid="org.eclipse.ui.internal.ViewStack@1465610" selectionindex="0" relatedfolderid="org.eclipse.ui.internal.ViewStack@160e278" portletconfigorder="4320daba-88c9-4e30-a6cb-5eac47e1d378" />
+      <portletfolder relationtype="RIGHT" ratio="0.5" folderid="org.eclipse.ui.internal.ViewStack@329a65" selectionindex="-1" isplaceholder="true" relatedfolderid="org.eclipse.ui.internal.ViewStack@1465610" portletconfigorder="" />
+      <portletfolder relationtype="RIGHT" ratio="0.49902913" folderid="org.eclipse.ui.internal.ViewStack@12c4f63" selectionindex="-1" isplaceholder="true" relatedfolderid="org.eclipse.ui.internal.ViewStack@160e278" portletconfigorder="" />
+      <portletfolder relationtype="RIGHT" portletdecorationvisible="false" ratio="0.499031" folderid="org.eclipse.ui.internal.ViewStack@1b13185" selectionindex="0" relatedfolderid="org.eclipse.ui.internal.ViewStack@d8b6fe" portletconfigorder="082104ee-1e7e-4292-be87-15b7c1eb4c3c" />
+      <portletfolder relationtype="BOTTOM" portletdecorationvisible="false" ratio="0.4964029" folderid="org.eclipse.ui.internal.ViewStack@151c325" selectionindex="0" relatedfolderid="org.eclipse.ui.internal.ViewStack@1b13185" portletconfigorder="83a9d631-2127-4c3d-b275-bf6dc97b08f2" />
+      <portletfolder relationtype="BOTTOM" portletdecorationvisible="false" ratio="0.4964029" folderid="org.eclipse.ui.internal.ViewStack@17d7715" selectionindex="0" relatedfolderid="org.eclipse.ui.internal.ViewStack@d8b6fe" portletconfigorder="fe39aa9d-d2fe-40e8-b1cf-9ee23f43cbed" />
+    </dashboardlayout>
+    <portletconfig com.dynatrace.diagnostics.portlets.text.textportletconfig.backgroundstyle="topLeft" icon="com.dynatrace.diagnostics.sdk/default.gif" usespecificautorefresh="false" usedashboardsourceforcompare="true" folderid="org.eclipse.ui.internal.ViewStack@d8b6fe" com.dynatrace.diagnostics.portlets.text.textportletconfig.wallpapercolor="RGB(0,64,128,255)" usedashboardsource="true" heightmode="AdjustToFontSize" bgcolor="236,233,216,255" id="a877bac7-8f10-4a63-8643-71ccb3bc2e7e" addfilterinfo="false" source="local://Offline" invertcolors="true" com.dynatrace.diagnostics.portlets.text.textportletconfig.alignment="CENTER" com.dynatrace.diagnostics.portlets.text.textportletconfig.text="Bytes Sent/Received" description="" name="Text" typeid="com.dynatrace.diagnostics.portlets.text.Text" com.dynatrace.diagnostics.portlets.text.textportletconfig.defaultforegroundcolor="RGB(255,255,255,255)">
+      <reportconfig lines.per.table="100" print.legends="true" enabled="true" levels.per.tree="10" override="false" print.images="true" reportposition="0" />
+      <filter>
+        <inheritancemap />
+      </filter>
+      <autorefreshconfig unit="MINUTES" enabled="false" time="5" />
+      <sashconfig weights="1,1" displayoption="CHART_AND_TABLE" />
+      <font height="12" style="NORMAL" name="Arial" />
+    </portletconfig>
+    <portletconfig com.dynatrace.diagnostics.portlets.text.textportletconfig.backgroundstyle="topLeft" icon="com.dynatrace.diagnostics.sdk/default.gif" usespecificautorefresh="false" usedashboardsourceforcompare="true" folderid="org.eclipse.ui.internal.ViewStack@1b13185" com.dynatrace.diagnostics.portlets.text.textportletconfig.wallpapercolor="RGB(0,64,128,255)" usedashboardsource="true" heightmode="AdjustToFontSize" bgcolor="236,233,216,255" id="082104ee-1e7e-4292-be87-15b7c1eb4c3c" addfilterinfo="false" source="local://Offline" invertcolors="true" com.dynatrace.diagnostics.portlets.text.textportletconfig.alignment="CENTER" com.dynatrace.diagnostics.portlets.text.textportletconfig.text="Current Connections" description="" name="Text" typeid="com.dynatrace.diagnostics.portlets.text.Text" com.dynatrace.diagnostics.portlets.text.textportletconfig.defaultforegroundcolor="RGB(255,255,255,255)">
+      <reportconfig lines.per.table="100" print.legends="true" enabled="true" levels.per.tree="10" override="false" print.images="true" reportposition="1" />
+      <filter>
+        <inheritancemap />
+      </filter>
+      <autorefreshconfig unit="MINUTES" enabled="false" time="5" />
+      <sashconfig weights="1,1" displayoption="CHART_AND_TABLE" />
+      <font height="12" style="NORMAL" name="Arial" />
+    </portletconfig>
+    <portletconfig com.dynatrace.diagnostics.portlets.text.textportletconfig.backgroundstyle="topLeft" icon="com.dynatrace.diagnostics.sdk/default.gif" usespecificautorefresh="false" usedashboardsourceforcompare="true" folderid="org.eclipse.ui.internal.ViewStack@1e0c0b6" com.dynatrace.diagnostics.portlets.text.textportletconfig.wallpapercolor="RGB(0,64,128,255)" usedashboardsource="true" heightmode="AdjustToFontSize" bgcolor="236,233,216,255" id="1b8ce2d0-83c5-46ed-a970-ed847a50034f" addfilterinfo="false" source="local://Offline" invertcolors="true" com.dynatrace.diagnostics.portlets.text.textportletconfig.alignment="CENTER" com.dynatrace.diagnostics.portlets.text.textportletconfig.text="Request Overview (GET/POST/PUT)" description="" name="Text" typeid="com.dynatrace.diagnostics.portlets.text.Text" com.dynatrace.diagnostics.portlets.text.textportletconfig.defaultforegroundcolor="RGB(255,255,255,255)">
+      <reportconfig lines.per.table="100" print.legends="true" enabled="true" levels.per.tree="10" override="false" print.images="true" reportposition="2" />
+      <filter>
+        <inheritancemap />
+      </filter>
+      <autorefreshconfig unit="MINUTES" enabled="false" time="5" />
+      <sashconfig weights="1,1" displayoption="CHART_AND_TABLE" />
+      <font height="12" style="NORMAL" name="Arial" />
+    </portletconfig>
+    <portletconfig com.dynatrace.diagnostics.portlets.text.textportletconfig.backgroundstyle="topLeft" icon="com.dynatrace.diagnostics.sdk/default.gif" usespecificautorefresh="false" usedashboardsourceforcompare="true" folderid="org.eclipse.ui.internal.ViewStack@dcfdc8" com.dynatrace.diagnostics.portlets.text.textportletconfig.wallpapercolor="RGB(0,64,128,255)" usedashboardsource="true" heightmode="AdjustToFontSize" bgcolor="236,233,216,255" id="f7187422-b1e1-4c03-830c-bbd3e8d9b50c" addfilterinfo="false" source="local://Offline" invertcolors="true" com.dynatrace.diagnostics.portlets.text.textportletconfig.alignment="CENTER" com.dynatrace.diagnostics.portlets.text.textportletconfig.text="Login Attempts &amp; Currently logged in Anonyous &amp; Authotrized Users" description="" name="Text" typeid="com.dynatrace.diagnostics.portlets.text.Text" com.dynatrace.diagnostics.portlets.text.textportletconfig.defaultforegroundcolor="RGB(255,255,255,255)">
+      <reportconfig lines.per.table="100" print.legends="true" enabled="true" levels.per.tree="10" override="false" print.images="true" reportposition="3" />
+      <filter>
+        <inheritancemap />
+      </filter>
+      <autorefreshconfig unit="MINUTES" enabled="false" time="5" />
+      <sashconfig weights="1,1" displayoption="CHART_AND_TABLE" />
+      <font height="12" style="NORMAL" name="Arial" />
+    </portletconfig>
+    <portletconfig com.dynatrace.diagnostics.portlets.text.textportletconfig.backgroundstyle="topLeft" icon="com.dynatrace.diagnostics.sdk/default.gif" usespecificautorefresh="false" usedashboardsourceforcompare="true" folderid="org.eclipse.ui.internal.ViewStack@883936" com.dynatrace.diagnostics.portlets.text.textportletconfig.wallpapercolor="RGB(0,64,128,255)" usedashboardsource="true" heightmode="AdjustToFontSize" bgcolor="236,233,216,255" id="ff007f08-daa8-4d0c-a804-5ceb14befa40" addfilterinfo="false" source="local://Offline" invertcolors="true" com.dynatrace.diagnostics.portlets.text.textportletconfig.alignment="CENTER" com.dynatrace.diagnostics.portlets.text.textportletconfig.text="Cache Hits %" description="" name="Text" typeid="com.dynatrace.diagnostics.portlets.text.Text" com.dynatrace.diagnostics.portlets.text.textportletconfig.defaultforegroundcolor="RGB(255,255,255,255)">
+      <reportconfig lines.per.table="100" print.legends="true" enabled="true" levels.per.tree="10" override="false" print.images="true" reportposition="4" />
+      <filter>
+        <inheritancemap />
+      </filter>
+      <autorefreshconfig unit="MINUTES" enabled="false" time="5" />
+      <sashconfig weights="1,1" displayoption="CHART_AND_TABLE" />
+      <font height="12" style="NORMAL" name="Arial" />
+    </portletconfig>
+    <portletconfig icon="com.dynatrace.diagnostics.sdk/default.gif" usespecificautorefresh="false" usedashboardsourceforcompare="true" folderid="org.eclipse.ui.internal.ViewStack@1465610" sessiontype="live" usedashboardsource="true" sessionid="Monitoring" bgcolor="236,233,216,255" id="4320daba-88c9-4e30-a6cb-5eac47e1d378" addfilterinfo="false" source="local://Offline" description="" lastvalue="false" name="Chart" typeid="com.dynatrace.diagnostics.portlets.chart.Chart" showabsolutevalues="false">
+      <reportconfig lines.per.table="100" print.legends="true" enabled="true" levels.per.tree="10" override="false" print.images="true" reportposition="5" />
+      <filter>
+        <criterion type="timeframe">
+          <timeframe start="0" type="Auto" end="9223372036854775807" />
+        </criterion>
+        <inheritancemap />
+      </filter>
+      <autorefreshconfig unit="MINUTES" enabled="false" time="1" />
+      <sashconfig weights="1,1" displayoption="CHART" />
+      <datamodelconfig>
+        <chart axis.y.show="true" subchartweights="500,500" orientation="Horizontal" axis.x.title="" legendposition="Bottom" axis.y.title="" zoomable="true" showtooltips="true" charttype="MeterChart" axis.y.title.show="true" resolution="Auto" axis.x.show="true" title="" yaxisalignment="0" splitcharts="true" bounds.y.enabled="false" axis.x.title.show="true" logxaxis="false" showlegend="true" showtitle="false" showvalues="false">
+          <legendcomposition min="false" aggregationfromseries="false" scale="false" host="false" max="false" measure="true" count="false" last="false" sum="false" agent="false" aggregation="false" unit="false" avg="false" />
+          <chartsource position="1" scale="-2147483648" visible="true" sessiontype="live" dynamicconfig="false" aggregationtype="Avg" autounit="false" sessionid="Monitoring" uiunit="number" fetchmeasurecolor="true" id="96d531f0-295d-4606-953c-3d595684be6d" displayrate="auto" unit="number" systemid="Monitoring" overridesource="false" rate="s" ratesupported="true" name="Web Service Cache: File Cache Flushes" sourcecolor="RGB(64,64,0,255)" measuretype="MonitorMeasure" sourcetype="MEASURE" fetchthreshold="false" fetch.dynamic.measures="false" autoscale="true">
+            <lightweightuniquemeasureidentifier keyid="Web Service Cache: File Cache Flushes" metricgroupkey="IIS Performance Monitor" collector="" systemid="Monitoring" agenthost="" parentkeyid="Web Service Cache: File Cache Flushes" metrickeyid="Web Service Cache: File Cache Flushes" agentname="IIS Performance Monitor" />
+            <displaysourceinfo monitorhost="localhost" monitordetails="IIS Performance Monitor" measureunit="number" monitorscheduleid="IIS Performance Monitor" measurerate="sec" />
+          </chartsource>
+          <chartsource position="2" scale="-2147483648" visible="true" sessiontype="live" dynamicconfig="false" aggregationtype="Avg" autounit="false" sessionid="Monitoring" uiunit="number" fetchmeasurecolor="true" id="ce492837-1b90-4a6b-b27e-0bdf53b92423" displayrate="auto" unit="number" systemid="Monitoring" overridesource="false" rate="s" ratesupported="true" name="Web Service Cache: URI Cache Flushes" sourcecolor="RGB(64,192,192,255)" measuretype="MonitorMeasure" sourcetype="MEASURE" fetchthreshold="false" fetch.dynamic.measures="false" autoscale="true">
+            <lightweightuniquemeasureidentifier keyid="Web Service Cache: URI Cache Flushes" metricgroupkey="IIS Performance Monitor" collector="" systemid="Monitoring" agenthost="" parentkeyid="Web Service Cache: URI Cache Flushes" metrickeyid="Web Service Cache: URI Cache Flushes" agentname="IIS Performance Monitor" />
+            <displaysourceinfo monitorhost="localhost" monitordetails="IIS Performance Monitor" measureunit="number" monitorscheduleid="IIS Performance Monitor" measurerate="sec" />
+          </chartsource>
+          <splitconfig splitmode="PerSeries" splitlayout="Horizontal" />
+        </chart>
+        <table name="The Measure table" sortcolumn="0" viewmode="Hierarchy" columnorder="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+          <column index="0" sort="Up" forcevisible="false" hidden="false" width="150" />
+          <column index="1" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="2" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="3" sort="None" forcevisible="false" hidden="false" width="10" />
+          <column index="4" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="5" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="6" sort="None" forcevisible="false" hidden="false" width="50" />
+          <column index="7" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="8" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="9" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="10" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="11" sort="None" forcevisible="false" hidden="true" width="75" />
+          <column index="12" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="13" sort="None" forcevisible="false" hidden="false" width="105" />
+          <column index="14" sort="None" forcevisible="false" hidden="true" width="50" />
+          <column index="15" sort="None" forcevisible="false" hidden="true" width="50" />
+          <column index="16" sort="None" forcevisible="false" hidden="true" width="50" />
+        </table>
+      </datamodelconfig>
+      <chartcolors />
+    </portletconfig>
+    <portletconfig icon="com.dynatrace.diagnostics.sdk/default.gif" usespecificautorefresh="false" usedashboardsourceforcompare="true" folderid="org.eclipse.ui.internal.ViewStack@954bf1" sessiontype="live" usedashboardsource="true" sessionid="Monitoring" bgcolor="236,233,216,255" id="4d967764-0b5d-4ba1-b0f1-9525774c2e35" addfilterinfo="false" source="local://Offline" description="" lastvalue="false" name="Chart" typeid="com.dynatrace.diagnostics.portlets.chart.Chart" showabsolutevalues="false">
+      <reportconfig lines.per.table="100" print.legends="true" enabled="true" levels.per.tree="10" override="false" print.images="true" reportposition="6" />
+      <filter>
+        <criterion type="timeframe">
+          <timeframe start="0" type="Auto" end="9223372036854775807" />
+        </criterion>
+        <inheritancemap />
+      </filter>
+      <autorefreshconfig unit="MINUTES" enabled="false" time="1" />
+      <sashconfig weights="414,585" displayoption="CHART" />
+      <datamodelconfig>
+        <chart axis.y.show="true" bounds.y.upper="100.0" subchartweights="500,500" orientation="Horizontal" axis.x.title="" legendposition="Bottom" axis.y.title="" zoomable="true" showtooltips="true" bounds.y.lower="0.0" charttype="MeterChart" axis.y.title.show="true" resolution="Auto" axis.x.show="true" title="" yaxisalignment="0" splitcharts="true" bounds.y.enabled="true" axis.x.title.show="true" logxaxis="false" showlegend="true" showtitle="false" showvalues="false">
+          <legendcomposition min="false" aggregationfromseries="false" scale="false" host="false" max="false" measure="true" count="false" last="false" sum="false" agent="false" aggregation="false" unit="false" avg="false" />
+          <chartsource position="1" scale="0" visible="true" sessiontype="live" dynamicconfig="false" aggregationtype="Avg" autounit="false" sessionid="Monitoring" uiunit="number" fetchmeasurecolor="true" id="b36e1ac4-4fc6-4561-8b6d-e350ca6040f4" displayrate="auto" unit="number" systemid="Monitoring" overridesource="false" rate="s" ratesupported="true" name="Web Service Cache: File Cache Hits %" sourcecolor="RGB(64,192,192,255)" measuretype="MonitorMeasure" sourcetype="MEASURE" fetchthreshold="false" fetch.dynamic.measures="false" autoscale="false">
+            <lightweightuniquemeasureidentifier keyid="Web Service Cache: File Cache Hits %" metricgroupkey="IIS Performance Monitor" collector="" systemid="Monitoring" agenthost="" parentkeyid="Web Service Cache: File Cache Hits %" metrickeyid="Web Service Cache: File Cache Hits %" agentname="IIS Performance Monitor" />
+            <displaysourceinfo monitorhost="localhost" monitordetails="IIS Performance Monitor" measureunit="number" monitorscheduleid="IIS Performance Monitor" measurerate="sec" />
+          </chartsource>
+          <chartsource position="2" scale="0" visible="true" sessiontype="live" dynamicconfig="false" aggregationtype="Avg" autounit="false" sessionid="Monitoring" uiunit="number" fetchmeasurecolor="true" id="12f79b02-5e3d-42c7-add2-7caa6ed79786" displayrate="auto" unit="number" systemid="Monitoring" overridesource="false" rate="s" ratesupported="true" name="Web Service Cache: URI Cache Hits %" sourcecolor="RGB(128,128,0,255)" measuretype="MonitorMeasure" sourcetype="MEASURE" fetchthreshold="false" fetch.dynamic.measures="false" autoscale="false">
+            <lightweightuniquemeasureidentifier keyid="Web Service Cache: URI Cache Hits %" metricgroupkey="IIS Performance Monitor" collector="" systemid="Monitoring" agenthost="" parentkeyid="Web Service Cache: URI Cache Hits %" metrickeyid="Web Service Cache: URI Cache Hits %" agentname="IIS Performance Monitor" />
+            <displaysourceinfo monitorhost="localhost" monitordetails="IIS Performance Monitor" measureunit="number" monitorscheduleid="IIS Performance Monitor" measurerate="sec" />
+          </chartsource>
+          <splitconfig splitmode="PerSeries" splitlayout="Horizontal" />
+        </chart>
+        <table name="The Measure table" sortcolumn="0" viewmode="Hierarchy" columnorder="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+          <column index="0" sort="Up" forcevisible="false" hidden="false" width="285" />
+          <column index="1" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="2" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="3" sort="None" forcevisible="false" hidden="false" width="10" />
+          <column index="4" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="5" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="6" sort="None" forcevisible="false" hidden="false" width="50" />
+          <column index="7" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="8" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="9" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="10" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="11" sort="None" forcevisible="false" hidden="true" width="75" />
+          <column index="12" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="13" sort="None" forcevisible="false" hidden="false" width="105" />
+          <column index="14" sort="None" forcevisible="false" hidden="true" width="50" />
+          <column index="15" sort="None" forcevisible="false" hidden="true" width="50" />
+          <column index="16" sort="None" forcevisible="false" hidden="true" width="50" />
+        </table>
+      </datamodelconfig>
+      <chartcolors />
+    </portletconfig>
+    <portletconfig com.dynatrace.diagnostics.portlets.text.textportletconfig.backgroundstyle="topLeft" icon="com.dynatrace.diagnostics.sdk/default.gif" usespecificautorefresh="false" usedashboardsourceforcompare="true" folderid="leftFolder" com.dynatrace.diagnostics.portlets.text.textportletconfig.wallpapercolor="RGB(0,0,255,255)" usedashboardsource="true" heightmode="AdjustToFontSize" bgcolor="236,233,216,255" id="47242aea-26e7-4d7d-b945-6a457c51151d" addfilterinfo="false" source="local://Offline" invertcolors="true" com.dynatrace.diagnostics.portlets.text.textportletconfig.alignment="CENTER" com.dynatrace.diagnostics.portlets.text.textportletconfig.text="Internet Information Services" description="" name="Text" typeid="com.dynatrace.diagnostics.portlets.text.Text" com.dynatrace.diagnostics.portlets.text.textportletconfig.defaultforegroundcolor="RGB(255,255,255,255)">
+      <reportconfig lines.per.table="100" print.legends="true" enabled="true" levels.per.tree="10" override="false" print.images="true" reportposition="13" />
+      <filter>
+        <inheritancemap />
+      </filter>
+      <autorefreshconfig unit="MINUTES" enabled="false" time="5" />
+      <sashconfig weights="1,1" displayoption="CHART_AND_TABLE" />
+      <font height="14" style="BOLD_ITALIC" name="Arial" />
+    </portletconfig>
+    <portletconfig icon="com.dynatrace.diagnostics.sdk/default.gif" usespecificautorefresh="false" usedashboardsourceforcompare="true" folderid="org.eclipse.ui.internal.ViewStack@a95748" sessiontype="live" usedashboardsource="true" sessionid="Monitoring" bgcolor="236,233,216,255" id="1b6bead1-74b9-4d84-9206-9dfa60ab18c2" addfilterinfo="false" source="local://Offline" description="" lastvalue="false" name="Chart" typeid="com.dynatrace.diagnostics.portlets.chart.Chart" showabsolutevalues="false">
+      <reportconfig lines.per.table="100" print.legends="true" enabled="true" levels.per.tree="10" override="false" print.images="true" reportposition="7" />
+      <filter>
+        <criterion type="timeframe">
+          <timeframe start="0" type="Auto" end="9223372036854775807" />
+        </criterion>
+        <inheritancemap />
+      </filter>
+      <autorefreshconfig unit="MINUTES" enabled="false" time="1" />
+      <sashconfig weights="1,1" displayoption="CHART" />
+      <datamodelconfig>
+        <chart axis.y.show="true" subchartweights="200" orientation="Horizontal" axis.x.title="" legendposition="Bottom" axis.y.title="" zoomable="true" showtooltips="true" charttype="LineChart" axis.y.title.show="true" resolution="Auto" axis.x.show="true" title="" yaxisalignment="0" splitcharts="false" bounds.y.enabled="false" axis.x.title.show="true" logxaxis="false" showlegend="true" showtitle="false" showvalues="false">
+          <legendcomposition min="false" aggregationfromseries="false" scale="false" host="false" max="false" measure="true" count="false" last="false" sum="false" agent="false" aggregation="false" unit="false" avg="false" />
+          <chartsource position="1" scale="-2147483648" visible="true" sessiontype="live" dynamicconfig="false" aggregationtype="Avg" autounit="false" sessionid="Monitoring" uiunit="number" fetchmeasurecolor="true" id="ee677762-9790-4025-81f8-04989ec890cb" displayrate="auto" unit="number" systemid="Monitoring" overridesource="false" rate="s" ratesupported="true" name="Web Service: Logon Attempts/sec" sourcecolor="RGB(192,128,64,255)" measuretype="MonitorMeasure" sourcetype="MEASURE" fetchthreshold="false" fetch.dynamic.measures="false" autoscale="true">
+            <lightweightuniquemeasureidentifier keyid="Web Service: Logon Attempts/sec" metricgroupkey="IIS Performance Monitor" collector="" systemid="Monitoring" agenthost="" parentkeyid="Web Service: Logon Attempts/sec" metrickeyid="Web Service: Logon Attempts/sec" agentname="IIS Performance Monitor" />
+            <displaysourceinfo monitorhost="localhost" monitordetails="IIS Performance Monitor" measureunit="number" monitorscheduleid="IIS Performance Monitor" measurerate="sec" />
+          </chartsource>
+          <splitconfig splitmode="PerSeries" splitlayout="Horizontal" />
+        </chart>
+        <table name="The Measure table" sortcolumn="0" viewmode="Hierarchy" columnorder="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+          <column index="0" sort="Up" forcevisible="false" hidden="false" width="150" />
+          <column index="1" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="2" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="3" sort="None" forcevisible="false" hidden="false" width="10" />
+          <column index="4" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="5" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="6" sort="None" forcevisible="false" hidden="false" width="50" />
+          <column index="7" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="8" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="9" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="10" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="11" sort="None" forcevisible="false" hidden="true" width="75" />
+          <column index="12" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="13" sort="None" forcevisible="false" hidden="false" width="105" />
+          <column index="14" sort="None" forcevisible="false" hidden="true" width="50" />
+          <column index="15" sort="None" forcevisible="false" hidden="true" width="50" />
+          <column index="16" sort="None" forcevisible="false" hidden="true" width="50" />
+        </table>
+      </datamodelconfig>
+      <chartcolors />
+    </portletconfig>
+    <portletconfig icon="com.dynatrace.diagnostics.sdk/default.gif" usespecificautorefresh="false" usedashboardsourceforcompare="true" folderid="org.eclipse.ui.internal.ViewStack@579790" sessiontype="live" usedashboardsource="true" sessionid="Monitoring" bgcolor="236,233,216,255" id="04e69de0-9917-441c-a5bc-57fe7903aea5" addfilterinfo="false" source="local://Offline" description="" lastvalue="false" name="Chart" typeid="com.dynatrace.diagnostics.portlets.chart.Chart" showabsolutevalues="false">
+      <reportconfig lines.per.table="100" print.legends="true" enabled="true" levels.per.tree="10" override="false" print.images="true" reportposition="8" />
+      <filter>
+        <criterion type="timeframe">
+          <timeframe start="0" type="Auto" end="9223372036854775807" />
+        </criterion>
+        <inheritancemap />
+      </filter>
+      <autorefreshconfig unit="MINUTES" enabled="false" time="1" />
+      <sashconfig weights="500,500" displayoption="CHART" />
+      <datamodelconfig>
+        <chart axis.y.show="true" subchartweights="200" orientation="Horizontal" axis.x.title="" legendposition="Bottom" axis.y.title="" zoomable="true" showtooltips="true" charttype="LineChart" axis.y.title.show="true" resolution="Auto" axis.x.show="true" title="" yaxisalignment="0" splitcharts="false" bounds.y.enabled="false" axis.x.title.show="true" logxaxis="false" showlegend="true" showtitle="false" showvalues="false">
+          <legendcomposition min="false" aggregationfromseries="false" scale="false" host="false" max="false" measure="true" count="false" last="false" sum="false" agent="false" aggregation="false" unit="false" avg="false" />
+          <chartsource position="1" scale="-2147483648" visible="true" sessiontype="live" dynamicconfig="false" aggregationtype="Avg" autounit="false" sessionid="Monitoring" uiunit="number" fetchmeasurecolor="true" id="8047d4cd-a4d2-48e3-85ba-2ae9bfa178a4" displayrate="auto" unit="number" systemid="Monitoring" overridesource="false" rate="s" ratesupported="true" name="Web Service: Current NonAnonymous Users" sourcecolor="RGB(192,64,128,255)" measuretype="MonitorMeasure" sourcetype="MEASURE" fetchthreshold="false" fetch.dynamic.measures="false" autoscale="true">
+            <lightweightuniquemeasureidentifier keyid="Web Service: Current NonAnonymous Users" metricgroupkey="IIS Performance Monitor" collector="" systemid="Monitoring" agenthost="" parentkeyid="Web Service: Current NonAnonymous Users" metrickeyid="Web Service: Current NonAnonymous Users" agentname="IIS Performance Monitor" />
+            <displaysourceinfo monitorhost="localhost" monitordetails="IIS Performance Monitor" measureunit="number" monitorscheduleid="IIS Performance Monitor" measurerate="sec" />
+          </chartsource>
+          <chartsource position="2" scale="-2147483648" visible="true" sessiontype="live" dynamicconfig="false" aggregationtype="Avg" autounit="false" sessionid="Monitoring" uiunit="number" fetchmeasurecolor="true" id="99a4ba06-0b51-49e6-99bf-f545d51dfebe" displayrate="auto" unit="number" systemid="Monitoring" overridesource="false" rate="s" ratesupported="true" name="Web Service: Current Anonymous Users" sourcecolor="RGB(128,0,192,255)" measuretype="MonitorMeasure" sourcetype="MEASURE" fetchthreshold="false" fetch.dynamic.measures="false" autoscale="true">
+            <lightweightuniquemeasureidentifier keyid="Web Service: Current Anonymous Users" metricgroupkey="IIS Performance Monitor" collector="" systemid="Monitoring" agenthost="" parentkeyid="Web Service: Current Anonymous Users" metrickeyid="Web Service: Current Anonymous Users" agentname="IIS Performance Monitor" />
+            <displaysourceinfo monitorhost="localhost" monitordetails="IIS Performance Monitor" measureunit="number" monitorscheduleid="IIS Performance Monitor" measurerate="sec" />
+          </chartsource>
+          <splitconfig splitmode="PerSeries" splitlayout="Horizontal" />
+        </chart>
+        <table name="The Measure table" sortcolumn="0" viewmode="Hierarchy" columnorder="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+          <column index="0" sort="Up" forcevisible="false" hidden="false" width="170" />
+          <column index="1" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="2" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="3" sort="None" forcevisible="false" hidden="false" width="10" />
+          <column index="4" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="5" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="6" sort="None" forcevisible="false" hidden="false" width="50" />
+          <column index="7" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="8" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="9" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="10" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="11" sort="None" forcevisible="false" hidden="true" width="75" />
+          <column index="12" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="13" sort="None" forcevisible="false" hidden="false" width="105" />
+          <column index="14" sort="None" forcevisible="false" hidden="true" width="50" />
+          <column index="15" sort="None" forcevisible="false" hidden="true" width="50" />
+          <column index="16" sort="None" forcevisible="false" hidden="true" width="50" />
+        </table>
+      </datamodelconfig>
+      <chartcolors />
+    </portletconfig>
+    <portletconfig icon="com.dynatrace.diagnostics.sdk/default.gif" usespecificautorefresh="false" usedashboardsourceforcompare="true" folderid="org.eclipse.ui.internal.ViewStack@17d7715" sessiontype="live" usedashboardsource="true" sessionid="Monitoring" bgcolor="236,233,216,255" id="fe39aa9d-d2fe-40e8-b1cf-9ee23f43cbed" addfilterinfo="false" source="local://Offline" description="" lastvalue="false" name="Bytes Sent/Received" typeid="com.dynatrace.diagnostics.portlets.chart.Chart" showabsolutevalues="false">
+      <reportconfig lines.per.table="100" print.legends="true" enabled="true" levels.per.tree="10" override="false" print.images="true" reportposition="9" />
+      <filter>
+        <criterion type="timeframe">
+          <timeframe start="0" type="Auto" end="9223372036854775807" />
+        </criterion>
+        <inheritancemap />
+      </filter>
+      <autorefreshconfig unit="MINUTES" enabled="false" time="1" />
+      <sashconfig weights="500,500" displayoption="CHART" />
+      <datamodelconfig>
+        <chart axis.y.show="true" subchartweights="200" orientation="Horizontal" axis.x.title="" legendposition="Bottom" axis.y.title="" zoomable="true" showtooltips="true" charttype="LineChart" axis.y.title.show="true" resolution="Auto" axis.x.show="true" title="" yaxisalignment="0" splitcharts="false" bounds.y.enabled="false" axis.x.title.show="true" logxaxis="false" showlegend="true" showtitle="false" showvalues="false">
+          <legendcomposition min="false" aggregationfromseries="false" scale="false" host="false" max="false" measure="true" count="false" last="false" sum="false" agent="false" aggregation="false" unit="false" avg="false" />
+          <chartsource position="1" scale="-2147483648" visible="true" sessiontype="live" dynamicconfig="false" aggregationtype="Avg" autounit="false" sessionid="Monitoring" uiunit="number" fetchmeasurecolor="true" id="539fa1f1-6cc9-4b13-9bec-538c792347ae" displayrate="auto" unit="number" systemid="Monitoring" overridesource="false" rate="s" ratesupported="true" name="Web Service: Bytes Sent/sec" sourcecolor="RGB(64,0,64,255)" measuretype="MonitorMeasure" sourcetype="MEASURE" fetchthreshold="false" fetch.dynamic.measures="false" autoscale="true">
+            <lightweightuniquemeasureidentifier keyid="Web Service: Bytes Sent/sec" metricgroupkey="IIS Performance Monitor" collector="" systemid="Monitoring" agenthost="" parentkeyid="Web Service: Bytes Sent/sec" metrickeyid="Web Service: Bytes Sent/sec" agentname="IIS Performance Monitor" />
+            <displaysourceinfo monitorhost="localhost" monitordetails="IIS Performance Monitor" measureunit="number" monitorscheduleid="IIS Performance Monitor" measurerate="sec" />
+          </chartsource>
+          <chartsource position="2" scale="-2147483648" visible="true" sessiontype="live" dynamicconfig="false" aggregationtype="Avg" autounit="false" sessionid="Monitoring" uiunit="number" fetchmeasurecolor="true" id="f5b6b1a5-3421-40b0-91ce-95fd40de9fc8" displayrate="auto" unit="number" systemid="Monitoring" overridesource="false" rate="s" ratesupported="true" name="Web Service: Bytes Received/sec" sourcecolor="RGB(0,0,128,255)" measuretype="MonitorMeasure" sourcetype="MEASURE" fetchthreshold="false" fetch.dynamic.measures="false" autoscale="true">
+            <lightweightuniquemeasureidentifier keyid="Web Service: Bytes Received/sec" metricgroupkey="IIS Performance Monitor" collector="" systemid="Monitoring" agenthost="" parentkeyid="Web Service: Bytes Received/sec" metrickeyid="Web Service: Bytes Received/sec" agentname="IIS Performance Monitor" />
+            <displaysourceinfo monitorhost="localhost" monitordetails="IIS Performance Monitor" measureunit="number" monitorscheduleid="IIS Performance Monitor" measurerate="sec" />
+          </chartsource>
+          <splitconfig splitmode="PerSeries" splitlayout="Horizontal" />
+        </chart>
+        <table name="The Measure table" sortcolumn="0" viewmode="Hierarchy" columnorder="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+          <column index="0" sort="Up" forcevisible="false" hidden="false" width="150" />
+          <column index="1" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="2" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="3" sort="None" forcevisible="false" hidden="false" width="10" />
+          <column index="4" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="5" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="6" sort="None" forcevisible="false" hidden="false" width="50" />
+          <column index="7" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="8" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="9" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="10" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="11" sort="None" forcevisible="false" hidden="true" width="75" />
+          <column index="12" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="13" sort="None" forcevisible="false" hidden="false" width="105" />
+          <column index="14" sort="None" forcevisible="false" hidden="true" width="50" />
+          <column index="15" sort="None" forcevisible="false" hidden="true" width="50" />
+          <column index="16" sort="None" forcevisible="false" hidden="true" width="50" />
+        </table>
+      </datamodelconfig>
+      <chartcolors />
+    </portletconfig>
+    <portletconfig icon="com.dynatrace.diagnostics.sdk/default.gif" usespecificautorefresh="false" usedashboardsourceforcompare="true" folderid="org.eclipse.ui.internal.ViewStack@151c325" sessiontype="live" usedashboardsource="true" sessionid="Monitoring" bgcolor="236,233,216,255" id="83a9d631-2127-4c3d-b275-bf6dc97b08f2" addfilterinfo="false" source="local://Offline" description="" lastvalue="false" name="Chart" typeid="com.dynatrace.diagnostics.portlets.chart.Chart" showabsolutevalues="false">
+      <reportconfig lines.per.table="100" print.legends="true" enabled="true" levels.per.tree="10" override="false" print.images="true" reportposition="10" />
+      <filter>
+        <criterion type="timeframe">
+          <timeframe start="0" type="Auto" end="9223372036854775807" />
+        </criterion>
+        <inheritancemap />
+      </filter>
+      <autorefreshconfig unit="MINUTES" enabled="false" time="1" />
+      <sashconfig weights="500,500" displayoption="CHART" />
+      <datamodelconfig>
+        <chart axis.y.show="true" subchartweights="200" orientation="Horizontal" axis.x.title="" legendposition="Bottom" axis.y.title="" zoomable="true" showtooltips="true" charttype="LineChart" axis.y.title.show="true" resolution="Auto" axis.x.show="true" title="" yaxisalignment="0" splitcharts="false" bounds.y.enabled="false" axis.x.title.show="true" logxaxis="false" showlegend="true" showtitle="false" showvalues="false">
+          <legendcomposition min="false" aggregationfromseries="false" scale="false" host="false" max="false" measure="true" count="false" last="false" sum="false" agent="false" aggregation="false" unit="false" avg="false" />
+          <chartsource position="1" scale="-2147483648" visible="true" sessiontype="live" dynamicconfig="false" aggregationtype="Avg" autounit="false" sessionid="Monitoring" uiunit="number" fetchmeasurecolor="true" id="28be8769-88ac-4821-bde6-fcc7a1bac632" displayrate="auto" unit="number" systemid="Monitoring" overridesource="false" rate="s" ratesupported="true" name="Web Service: Current Connections" sourcecolor="RGB(128,192,0,255)" measuretype="MonitorMeasure" sourcetype="MEASURE" fetchthreshold="false" fetch.dynamic.measures="false" autoscale="true">
+            <lightweightuniquemeasureidentifier keyid="Web Service: Current Connections" metricgroupkey="IIS Performance Monitor" collector="" systemid="Monitoring" agenthost="" parentkeyid="Web Service: Current Connections" metrickeyid="Web Service: Current Connections" agentname="IIS Performance Monitor" />
+            <displaysourceinfo monitorhost="localhost" monitordetails="IIS Performance Monitor" measureunit="number" monitorscheduleid="IIS Performance Monitor" measurerate="sec" />
+          </chartsource>
+          <splitconfig splitmode="PerSeries" splitlayout="Horizontal" />
+        </chart>
+        <table name="The Measure table" sortcolumn="0" viewmode="Hierarchy" columnorder="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+          <column index="0" sort="Up" forcevisible="false" hidden="false" width="170" />
+          <column index="1" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="2" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="3" sort="None" forcevisible="false" hidden="false" width="10" />
+          <column index="4" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="5" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="6" sort="None" forcevisible="false" hidden="false" width="50" />
+          <column index="7" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="8" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="9" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="10" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="11" sort="None" forcevisible="false" hidden="true" width="75" />
+          <column index="12" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="13" sort="None" forcevisible="false" hidden="false" width="105" />
+          <column index="14" sort="None" forcevisible="false" hidden="true" width="50" />
+          <column index="15" sort="None" forcevisible="false" hidden="true" width="50" />
+          <column index="16" sort="None" forcevisible="false" hidden="true" width="50" />
+        </table>
+      </datamodelconfig>
+      <chartcolors />
+    </portletconfig>
+    <portletconfig icon="com.dynatrace.diagnostics.sdk/default.gif" usespecificautorefresh="false" usedashboardsourceforcompare="true" folderid="org.eclipse.ui.internal.ViewStack@1c4be6a" sessiontype="live" usedashboardsource="true" sessionid="Monitoring" bgcolor="236,233,216,255" id="b1eece02-0b60-442d-b280-35ded0cca4fa" addfilterinfo="false" source="local://Offline" description="" lastvalue="false" name="Chart" typeid="com.dynatrace.diagnostics.portlets.chart.Chart" showabsolutevalues="false">
+      <reportconfig lines.per.table="100" print.legends="true" enabled="true" levels.per.tree="10" override="false" print.images="true" reportposition="12" />
+      <filter>
+        <criterion type="timeframe">
+          <timeframe start="0" type="Auto" end="9223372036854775807" />
+        </criterion>
+        <inheritancemap />
+      </filter>
+      <autorefreshconfig unit="MINUTES" enabled="false" time="1" />
+      <sashconfig weights="500,500" displayoption="CHART" />
+      <datamodelconfig>
+        <chart axis.y.show="true" subchartweights="333,333,333" orientation="Horizontal" axis.x.title="" legendposition="Bottom" axis.y.title="" zoomable="true" showtooltips="true" charttype="LineChart" axis.y.title.show="true" resolution="Auto" axis.x.show="true" title="" yaxisalignment="0" splitcharts="true" bounds.y.enabled="false" axis.x.title.show="true" logxaxis="false" showlegend="true" showtitle="false" showvalues="false">
+          <legendcomposition min="false" aggregationfromseries="false" scale="false" host="false" max="false" measure="true" count="false" last="false" sum="false" agent="false" aggregation="false" unit="false" avg="false" />
+          <chartsource position="2" scale="-2147483648" visible="true" sessiontype="live" dynamicconfig="false" aggregationtype="Avg" autounit="false" sessionid="Monitoring" uiunit="number" fetchmeasurecolor="true" id="e3e0e159-09ae-4f75-a081-d1a9906369b8" displayrate="auto" unit="number" systemid="Monitoring" overridesource="false" rate="s" ratesupported="true" name="Web Service: Post Requests/sec" sourcecolor="RGB(64,64,64,255)" measuretype="MonitorMeasure" sourcetype="MEASURE" fetchthreshold="false" fetch.dynamic.measures="false" autoscale="true">
+            <lightweightuniquemeasureidentifier keyid="Web Service: Post Requests/sec" metricgroupkey="IIS Performance Monitor" collector="" systemid="Monitoring" agenthost="" parentkeyid="Web Service: Post Requests/sec" metrickeyid="Web Service: Post Requests/sec" agentname="IIS Performance Monitor" />
+            <displaysourceinfo monitorhost="localhost" monitordetails="IIS Performance Monitor" measureunit="number" monitorscheduleid="IIS Performance Monitor" measurerate="sec" />
+          </chartsource>
+          <chartsource position="1" scale="-2147483648" visible="true" sessiontype="live" dynamicconfig="false" aggregationtype="Avg" autounit="false" sessionid="Monitoring" uiunit="number" fetchmeasurecolor="true" id="dc77043a-eff3-420a-8026-cc9a9b1da933" displayrate="auto" unit="number" systemid="Monitoring" overridesource="false" rate="s" ratesupported="true" name="Web Service: Get Requests/sec" sourcecolor="RGB(0,192,64,255)" measuretype="MonitorMeasure" sourcetype="MEASURE" fetchthreshold="false" fetch.dynamic.measures="false" autoscale="true">
+            <lightweightuniquemeasureidentifier keyid="Web Service: Get Requests/sec" metricgroupkey="IIS Performance Monitor" collector="" systemid="Monitoring" agenthost="" parentkeyid="Web Service: Get Requests/sec" metrickeyid="Web Service: Get Requests/sec" agentname="IIS Performance Monitor" />
+            <displaysourceinfo monitorhost="localhost" monitordetails="IIS Performance Monitor" measureunit="number" monitorscheduleid="IIS Performance Monitor" measurerate="sec" />
+          </chartsource>
+          <chartsource position="3" scale="-2147483648" visible="true" sessiontype="live" dynamicconfig="false" aggregationtype="Avg" autounit="false" sessionid="Monitoring" uiunit="number" fetchmeasurecolor="true" id="8c42260d-97f2-4b38-a9b6-cc0de934e0ce" displayrate="auto" unit="number" systemid="Monitoring" overridesource="false" rate="s" ratesupported="true" name="Web Service: Put Requests/sec" sourcecolor="RGB(192,128,128,255)" measuretype="MonitorMeasure" sourcetype="MEASURE" fetchthreshold="false" fetch.dynamic.measures="false" autoscale="true">
+            <lightweightuniquemeasureidentifier keyid="Web Service: Put Requests/sec" metricgroupkey="IIS Performance Monitor" collector="" systemid="Monitoring" agenthost="" parentkeyid="Web Service: Put Requests/sec" metrickeyid="Web Service: Put Requests/sec" agentname="IIS Performance Monitor" />
+            <displaysourceinfo monitorhost="localhost" monitordetails="IIS Performance Monitor" measureunit="number" monitorscheduleid="IIS Performance Monitor" measurerate="sec" />
+          </chartsource>
+          <splitconfig splitmode="PerSeries" splitlayout="Horizontal" />
+        </chart>
+        <table name="The Measure table" sortcolumn="0" viewmode="Hierarchy" columnorder="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16">
+          <column index="0" sort="Up" forcevisible="false" hidden="false" width="238" />
+          <column index="1" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="2" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="3" sort="None" forcevisible="false" hidden="false" width="10" />
+          <column index="4" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="5" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="6" sort="None" forcevisible="false" hidden="false" width="50" />
+          <column index="7" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="8" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="9" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="10" sort="None" forcevisible="false" hidden="false" width="75" />
+          <column index="11" sort="None" forcevisible="false" hidden="true" width="75" />
+          <column index="12" sort="None" forcevisible="false" hidden="false" width="100" />
+          <column index="13" sort="None" forcevisible="false" hidden="false" width="105" />
+          <column index="14" sort="None" forcevisible="false" hidden="true" width="50" />
+          <column index="15" sort="None" forcevisible="false" hidden="true" width="50" />
+          <column index="16" sort="None" forcevisible="false" hidden="true" width="50" />
+        </table>
+      </datamodelconfig>
+      <chartcolors />
+    </portletconfig>
+    <portletconfig com.dynatrace.diagnostics.portlets.text.textportletconfig.backgroundstyle="topLeft" icon="com.dynatrace.diagnostics.sdk/default.gif" usespecificautorefresh="false" usedashboardsourceforcompare="true" folderid="org.eclipse.ui.internal.ViewStack@160e278" com.dynatrace.diagnostics.portlets.text.textportletconfig.wallpapercolor="RGB(0,64,128,255)" usedashboardsource="true" heightmode="AdjustToFontSize" bgcolor="236,233,216,255" id="1d12be32-0974-4c8d-9c41-3e75ad6a3084" addfilterinfo="false" source="local://Offline" invertcolors="true" com.dynatrace.diagnostics.portlets.text.textportletconfig.alignment="CENTER" com.dynatrace.diagnostics.portlets.text.textportletconfig.text="Cache Flushes" description="" name="Text" typeid="com.dynatrace.diagnostics.portlets.text.Text" com.dynatrace.diagnostics.portlets.text.textportletconfig.defaultforegroundcolor="RGB(255,255,255,255)">
+      <reportconfig lines.per.table="100" print.legends="true" enabled="true" levels.per.tree="10" override="false" print.images="true" reportposition="11" />
+      <filter>
+        <inheritancemap />
+      </filter>
+      <autorefreshconfig unit="MINUTES" enabled="false" time="5" />
+      <sashconfig weights="1,1" displayoption="CHART_AND_TABLE" />
+      <font height="12" style="NORMAL" name="Arial" />
+    </portletconfig>
+  </dashboardconfig>
+</dynatrace>
+
